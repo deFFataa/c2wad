@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    height: 3rem;
+    width: 100% !important;
+}
+input:focus, input:active{
+    outline: solid 1px rgb(238, 148, 39) !important;
+    border: solid 1px rgb(238, 148, 39) !important;
+}
+
+.container{
+    width: 100%;
+}
+
+.icon--header{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.btn-login{
+    height: 3rem;
+    width: 20rem !important;
+    background: rgb(238, 148, 39) !important;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.desc-account{
+    font-size: 12px;
+}
+
+.signUpUser{
+    color: rgb(238, 148, 39);
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,1439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", "sans-serif";
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.ui-autocomplete {
+  z-index: 9999 !important;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  box-shadow: rgba(25, 26, 28, 0.1) 0px 10px 10px -7px;
+  background-color: #ffffff;
+  position: fixed;
+}
+
+.C2WAD-text {
+  color: #ff702d;
+}
+
+.nav-section {
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.img-logo-nav {
+  width: 2.5rem;
+}
+
+.section-body {
+  height: 200px;
+  /* border: solid 1px red; */
+}
+
+.catch-phrase {
+  font-weight: 300;
+  font-size: 1.1rem;
+  width: 60%;
+}
+
+.image-catch-phrase {
+  width: 300px;
+  overflow: hidden;
+}
+
+.section-body {
+  background-image: url("../images/logoB.png");
+  background-size: 14%;
+  background-repeat: no-repeat;
+  background-position: 99% 200%;
+}
+
+.section-two {
+  height: 150px;
+  background-color: #e28a1e;
+  gap: .75rem;
+  /* border: solid 1px red; */
+}
+
+.btn-book-now {
+  background-color: none;
+  border: solid 1.5px #f5f5f5;
+  color: #f5f5f5;
+}
+
+.logo-book {
+  width: 150px;
+}
+
+.section-footer {
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
+  border-top: solid 1px #ff702d;
+  border-bottom: solid 1px #ff702d;
+  position: fixed;
+}
+
+.logo-footer {
+  width: 50px;
+}
+
+.C2WAD-text-grey {
+  color: #545454;
+}
+
+.footer-col-80 {
+  width: 80%;
+}
+
+.box-any-del {
+  width: 96%;
+  height: 180px;
+  border: solid 1.5px #e28a1e;
+  border-radius: 10px;
+}
+
+.btn-add-item {
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+.btn-add-item:focus {
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+.btn-place-order {
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+.btn-terminate-order {
+  background: -webkit-linear-gradient(218deg, #ff5353 0%, #ff3737 100%);
+  background: linear-gradient(218deg, #ff5353 0%, #ff3737 100%);
+}
+
+.btn-add-order:focus {
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+.order-detail-text {
+  color: #e28a1e;
+}
+
+.fair-price {
+  color: red;
+  font-size: 12px;
+}
+
+input[type="radio"].btn-COD {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Default label styles */
+.btn-COD {
+  color: #e28a1e;
+  border: solid 1.5px #e28a1e;
+  padding: .5rem 1.3rem;
+  border-radius: 5px;
+  margin: 0 10px;
+  background: none;
+  cursor: pointer;
+}
+
+/* Style when the radio button is checked */
+input[type="radio"].btn-COD:checked+label {
+  color: #fff;
+  border-color: #e28a1e;
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+/* .btn-Gcash {
+    color: #e28a1e;
+    border: solid 1.5px #e28a1e;
+    padding: .5rem 1.3rem;
+    border-radius: 5px;
+    background: none;
+
+}
+
+.btn-Gcash:focus {
+    color: #fff;
+    border: solid 1.5px #e28a1e;
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+} */
+
+.section-myProfile {
+  margin-top: 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.input-focus-profile:focus {
+  border: solid 1px #e28a1e;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 3;
+  width: 13.5rem;
+}
+
+.section-myOrder {
+  margin-top: 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.box-order {
+  margin: auto;
+  width: 50%;
+  height: 365px;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, .15);
+  border-radius: 5px;
+}
+
+.orderTime {
+  font-size: 12px;
+}
+
+.btn-edit-order {
+  background: none;
+  border: none;
+}
+
+.btn-pass-order {
+  background: #474bff;
+  background: -webkit-linear-gradient(243deg, #474bff 0%, #2e32ff 100%);
+  background: linear-gradient(243deg, #474bff 0%, #2e32ff 100%);
+}
+
+.btn-cancel-order {
+  border: solid 1px #ee9427;
+  border-left: none;
+  border-right: none;
+  background: none;
+  color: #2f2f2f;
+}
+
+.btn-accept-order {
+  background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+}
+
+.track-point {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-color: #FB5604;
+  border-radius: 50%;
+  z-index: 2;
+  /* Ensure circle appears above the line */
+}
+
+.track-line {
+  position: absolute;
+  background-color: #FB5604;
+  width: 2px;
+  top: 35px;
+  /* Adjust this value to position the line correctly */
+  bottom: 35px;
+}
+
+.wrapper {
+  margin-top: 2rem;
+  background: #fff;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+/* Login & Signup Form CSS Start */
+.form {
+  padding: 25px 30px;
+}
+
+.form header {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form form {
+  margin: 20px 0;
+}
+
+.form form .error-text {
+  color: #721c24;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.form form .name-details {
+  display: flex;
+}
+
+.form .name-details .field:first-child {
+  margin-right: 10px;
+}
+
+.form .name-details .field:last-child {
+  margin-left: 10px;
+}
+
+.form form .field {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  position: relative;
+}
+
+.form form .field label {
+  margin-bottom: 2px;
+}
+
+.form form .input input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form form .field input {
+  outline: none;
+}
+
+.form form .image input {
+  font-size: 17px;
+}
+
+.form form .button input {
+  height: 45px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  background: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.form form .field i {
+  position: absolute;
+  right: 15px;
+  top: 70%;
+  color: #ccc;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.form form .field i.active::before {
+  color: #333;
+  content: "\f070";
+}
+
+.form .link {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.form .link a {
+  color: #333;
+}
+
+.form .link a:hover {
+  text-decoration: underline;
+}
+
+
+/* Users List CSS Start */
+.users {
+  padding: 25px 30px;
+}
+
+.users header,
+.users-list a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  justify-content: space-between;
+}
+
+.wrapper img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.users header img {
+  height: 50px;
+  width: 50px;
+}
+
+:is(.users, .users-list) .content {
+  display: flex;
+  align-items: center;
+}
+
+:is(.users, .users-list) .content .details {
+  color: #000;
+  margin-left: 20px;
+}
+
+:is(.users, .users-list) .details span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.users header .logout {
+  display: block;
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.users .search {
+  margin: 20px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.users .search .text {
+  font-size: 18px;
+}
+
+.users .search input {
+  position: absolute;
+  height: 42px;
+  width: calc(100% - 50px);
+  font-size: 16px;
+  padding: 0 13px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.users .search input.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.users .search button {
+  position: relative;
+  z-index: 1;
+  width: 47px;
+  height: 42px;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  color: #ff702d;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.2s ease;
+}
+
+.users .search button.active {
+  background: #ff702d;
+  color: #fff;
+}
+
+.search button.active i::before {
+  content: '\f00d';
+}
+
+.users-list {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+:is(.users-list, .chat-box)::-webkit-scrollbar {
+  width: 0px;
+}
+
+.users-list a {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  border-bottom-color: #f1f1f1;
+}
+
+.users-list a:last-child {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+.users-list a img {
+  height: 40px;
+  width: 40px;
+}
+
+.users-list a .details p {
+  color: #67676a;
+}
+
+.users-list a .status-dot {
+  font-size: 12px;
+  color: #468669;
+  padding-left: 10px;
+}
+
+.users-list a .status-dot.offline {
+  color: #ccc;
+}
+
+/* Chat Area CSS Start */
+.chat-area header {
+  display: flex;
+  align-items: center;
+  padding: 18px 30px;
+}
+
+.chat-area header .back-icon {
+  color: #333;
+  font-size: 18px;
+}
+
+.chat-area header img {
+  height: 45px;
+  width: 45px;
+  margin: 0 15px;
+}
+
+.chat-area header .details span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.chat-box {
+  position: relative;
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 10px 30px 20px 30px;
+  background: #f7f7f7;
+  box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+    inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.chat-box .text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: calc(100% - 50px);
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.chat-box .chat {
+  margin: 15px 0;
+}
+
+.chat-box .chat p {
+  word-wrap: break-word;
+  padding: 8px 16px;
+  box-shadow: 0 0 32px rgb(0 0 0 / 8%),
+    0rem 16px 16px -16px rgb(0 0 0 / 10%);
+}
+
+.chat-box .outgoing {
+  display: flex;
+}
+
+.chat-box .outgoing .details {
+  margin-left: auto;
+  max-width: calc(100% - 130px);
+}
+
+.outgoing .details p {
+  background: #ff702d;
+  color: #fff;
+  border-radius: 18px 18px 0 18px;
+}
+
+.chat-box .incoming {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.chat-box .incoming img {
+  height: 35px;
+  width: 35px;
+}
+
+.chat-box .incoming .details {
+  margin-right: auto;
+  margin-left: 10px;
+  max-width: calc(100% - 130px);
+}
+
+.incoming .details p {
+  background: #fff;
+  color: #333;
+  border-radius: 18px 18px 18px 0;
+}
+
+.typing-area {
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.typing-area input {
+  height: 45px;
+  width: calc(100% - 58px);
+  font-size: 16px;
+  padding: 0 13px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.typing-area button {
+  color: #fff;
+  width: 55px;
+  border: none;
+  outline: none;
+  background: #ff702d;
+  font-size: 19px;
+  cursor: pointer;
+  opacity: 0.7;
+  pointer-events: none;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.3s ease;
+}
+
+.typing-area button.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.user-icon {
+  background-color: #ff702d;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white !important;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  cursor: pointer;
+  font-size: 25px;
+  color: #ccc;
+}
+
+.rating input:checked ~ label,
+.rating input:checked ~ label ~ label {
+    color: #FFD700; /* Change this to your desired star color */
+}
+
+.que-box {
+  border: solid 1px #4d4d4d !important;
+}
+
+.box-inner {
+  background-color: rgba(183, 201, 246, 0.15);
+  border-radius: 5px;
+}
+
+.profile-box{
+  width: 50%;
+  margin: auto;
+}
+
+
+/* Responive media query */
+@media screen and (max-width: 768px) {
+  .C2WAD-text {
+    color: #ff702d;
+  }
+
+  nav {
+    height: 70px;
+    width: 100%;
+    box-shadow: rgba(25, 26, 28, 0.1) 0px 10px 10px -7px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+  }
+
+  .nav-section {
+    padding-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+    top: 0;
+  }
+
+  .img-logo-nav {
+    width: 2.5rem;
+  }
+
+  .section-body {
+    height: 200px;
+    /* border: solid 1px red; */
+  }
+
+  .catch-phrase {
+    font-weight: 300;
+    font-size: 1.1rem;
+    width: 60%;
+  }
+
+  .image-catch-phrase {
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .section-body {
+    background-image: url("../images/logoB.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 237% 0%;
+  }
+
+  .section-two {
+    height: 150px;
+    background-color: #e28a1e;
+    gap: .75rem;
+    /* border: solid 1px red; */
+  }
+
+  .btn-book-now {
+    background-color: none;
+    border: solid 1.5px #f5f5f5;
+    color: #f5f5f5;
+  }
+
+  .logo-book {
+    width: 150px;
+  }
+
+  .section-footer {
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 1;
+    border-top: solid 1px #ff702d;
+    border-bottom: solid 1px #ff702d;
+  }
+
+  .logo-footer {
+    width: 50px;
+  }
+
+  .C2WAD-text-grey {
+    color: #545454;
+  }
+
+  .footer-col-80 {
+    width: 80%;
+  }
+
+  .box-any-del {
+    width: 85%;
+    height: 180px;
+    border: solid 1.5px #e28a1e;
+    border-radius: 10px;
+  }
+
+  .btn-add-item {
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  .btn-add-item:focus {
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  .btn-place-order {
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  .btn-terminate-order {
+    background: -webkit-linear-gradient(218deg, #ff5353 0%, #ff3737 100%);
+    background: linear-gradient(218deg, #ff5353 0%, #ff3737 100%);
+  }
+
+  .btn-add-order:focus {
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  .order-detail-text {
+    color: #e28a1e;
+  }
+
+  .fair-price {
+    color: red;
+    font-size: 12px;
+  }
+
+  input[type="radio"].btn-COD {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Default label styles */
+  .btn-COD {
+    color: #e28a1e;
+    border: solid 1.5px #e28a1e;
+    padding: .5rem 1.3rem;
+    border-radius: 5px;
+    margin: 0 10px;
+    background: none;
+    cursor: pointer;
+  }
+
+  /* Style when the radio button is checked */
+  input[type="radio"].btn-COD:checked+label {
+    color: #fff;
+    border-color: #e28a1e;
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  /* .btn-Gcash {
+      color: #e28a1e;
+      border: solid 1.5px #e28a1e;
+      padding: .5rem 1.3rem;
+      border-radius: 5px;
+      background: none;
+  
+  }
+  
+  .btn-Gcash:focus {
+      color: #fff;
+      border: solid 1.5px #e28a1e;
+      background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+      background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  } */
+
+  .section-myProfile {
+    margin-top: 3.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .input-focus-profile:focus {
+    border: solid 1px #e28a1e;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    z-index: 3;
+    width: 13.5rem;
+  }
+
+  .section-myOrder {
+    margin-top: 3.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .box-order {
+    width: 100%;
+    height: 365px;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, .15);
+    border-radius: 5px;
+  }
+
+  .orderTime {
+    font-size: 12px;
+  }
+
+  .btn-edit-order {
+    background: none;
+    border: none;
+  }
+
+  .btn-pass-order {
+    background: #474bff;
+    background: -webkit-linear-gradient(243deg, #474bff 0%, #2e32ff 100%);
+    background: linear-gradient(243deg, #474bff 0%, #2e32ff 100%);
+  }
+
+  .btn-cancel-order {
+    border: solid 1px #ee9427;
+    border-left: none;
+    border-right: none;
+    background: none;
+    color: #2f2f2f;
+  }
+
+  .btn-accept-order {
+    background: -webkit-linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+    background: linear-gradient(218deg, #ee9427 0%, #ff702d 100%);
+  }
+
+  .track-point {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: #FB5604;
+    border-radius: 50%;
+    z-index: 2;
+    /* Ensure circle appears above the line */
+  }
+
+  .track-line {
+    position: absolute;
+    background-color: #FB5604;
+    width: 2px;
+    top: 35px;
+    /* Adjust this value to position the line correctly */
+    bottom: 35px;
+  }
+
+  .wrapper {
+    margin-top: 2rem;
+    background: #fff;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+
+  /* Login & Signup Form CSS Start */
+  .form {
+    padding: 25px 30px;
+  }
+
+  .form header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .form form {
+    margin: 20px 0;
+  }
+
+  .form form .error-text {
+    color: #721c24;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 10px;
+    display: none;
+  }
+
+  .form form .name-details {
+    display: flex;
+  }
+
+  .form .name-details .field:first-child {
+    margin-right: 10px;
+  }
+
+  .form .name-details .field:last-child {
+    margin-left: 10px;
+  }
+
+  .form form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .form form .field label {
+    margin-bottom: 2px;
+  }
+
+  .form form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form form .field input {
+    outline: none;
+  }
+
+  .form form .image input {
+    font-size: 17px;
+  }
+
+  .form form .button input {
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    background: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 13px;
+  }
+
+  .form form .field i {
+    position: absolute;
+    right: 15px;
+    top: 70%;
+    color: #ccc;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+
+  .form form .field i.active::before {
+    color: #333;
+    content: "\f070";
+  }
+
+  .form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+  }
+
+  .form .link a {
+    color: #333;
+  }
+
+  .form .link a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Users List CSS Start */
+  .users {
+    padding: 25px 30px;
+  }
+
+  .users header,
+  .users-list a {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    justify-content: space-between;
+  }
+
+  .wrapper img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .users header img {
+    height: 50px;
+    width: 50px;
+  }
+
+  :is(.users, .users-list) .content {
+    display: flex;
+    align-items: center;
+  }
+
+  :is(.users, .users-list) .content .details {
+    color: #000;
+    margin-left: 20px;
+  }
+
+  :is(.users, .users-list) .details span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .users header .logout {
+    display: block;
+    background: #333;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 17px;
+  }
+
+  .users .search {
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .users .search .text {
+    font-size: 18px;
+  }
+
+  .users .search input {
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    font-size: 16px;
+    padding: 0 13px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+  }
+
+  .users .search input.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .users .search button {
+    position: relative;
+    z-index: 1;
+    width: 47px;
+    height: 42px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    color: #ff702d;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.2s ease;
+  }
+
+  .users .search button.active {
+    background: #ff702d;
+    color: #fff;
+  }
+
+  .search button.active i::before {
+    content: '\f00d';
+  }
+
+  .users-list {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  :is(.users-list, .chat-box)::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .users-list a {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    border-bottom-color: #f1f1f1;
+  }
+
+  .users-list a:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+  }
+
+  .users-list a img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .users-list a .details p {
+    color: #67676a;
+  }
+
+  .users-list a .status-dot {
+    font-size: 12px;
+    color: #468669;
+    padding-left: 10px;
+  }
+
+  .users-list a .status-dot.offline {
+    color: #ccc;
+  }
+
+  /* Chat Area CSS Start */
+  .chat-area header {
+    display: flex;
+    align-items: center;
+    padding: 18px 30px;
+  }
+
+  .chat-area header .back-icon {
+    color: #333;
+    font-size: 18px;
+  }
+
+  .chat-area header img {
+    height: 45px;
+    width: 45px;
+    margin: 0 15px;
+  }
+
+  .chat-area header .details span {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .chat-box {
+    position: relative;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 10px 30px 20px 30px;
+    background: #f7f7f7;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+      inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+  }
+
+  .chat-box .text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: calc(100% - 50px);
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .chat-box .chat {
+    margin: 15px 0;
+  }
+
+  .chat-box .chat p {
+    word-wrap: break-word;
+    padding: 8px 16px;
+    box-shadow: 0 0 32px rgb(0 0 0 / 8%),
+      0rem 16px 16px -16px rgb(0 0 0 / 10%);
+  }
+
+  .chat-box .outgoing {
+    display: flex;
+  }
+
+  .chat-box .outgoing .details {
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+  }
+
+  .outgoing .details p {
+    background: #ff702d;
+    color: #fff;
+    border-radius: 18px 18px 0 18px;
+  }
+
+  .chat-box .incoming {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .chat-box .incoming img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .chat-box .incoming .details {
+    margin-right: auto;
+    margin-left: 10px;
+    max-width: calc(100% - 130px);
+  }
+
+  .incoming .details p {
+    background: #fff;
+    color: #333;
+    border-radius: 18px 18px 18px 0;
+  }
+
+  .typing-area {
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .typing-area input {
+    height: 45px;
+    width: calc(100% - 58px);
+    font-size: 16px;
+    padding: 0 13px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .typing-area button {
+    color: #fff;
+    width: 55px;
+    border: none;
+    outline: none;
+    background: #ff702d;
+    font-size: 19px;
+    cursor: pointer;
+    opacity: 0.7;
+    pointer-events: none;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.3s ease;
+  }
+
+  .typing-area button.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .user-icon {
+    background-color: #ff702d;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white !important;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .rating input[type="radio"] {
+    display: none;
+  }
+
+  .rating label {
+    cursor: pointer;
+    font-size: 25px;
+    color: #ccc;
+  }
+
+  .que-box {
+    border: solid 1px #4d4d4d !important;
+  }
+
+  .form,
+  .users {
+    padding: 20px;
+  }
+
+  .form header {
+    text-align: center;
+  }
+
+  .form form .name-details {
+    flex-direction: column;
+  }
+
+  .form .name-details .field:first-child {
+    margin-right: 0px;
+  }
+
+  .form .name-details .field:last-child {
+    margin-left: 0px;
+  }
+
+  .users header img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .users header .logout {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+
+  :is(.users, .users-list) .content .details {
+    margin-left: 15px;
+  }
+
+  .users-list a {
+    padding-right: 10px;
+  }
+
+  .chat-area header {
+    padding: 15px 20px;
+  }
+
+  .chat-box {
+    min-height: 600px;
+    padding: 10px 15px 15px 20px;
+  }
+
+  .chat-box .chat p {
+    font-size: 15px;
+  }
+
+  .chat-box .outogoing .details {
+    max-width: 230px;
+  }
+
+  .chat-box .incoming .details {
+    max-width: 265px;
+  }
+
+  .incoming .details img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .chat-area form {
+    padding: 20px;
+  }
+
+  .chat-area form input {
+    height: 40px;
+    width: calc(100% - 48px);
+  }
+
+  .chat-area form button {
+    width: 45px;
+  }
+
+  .profile-box{
+    width: 100%;
+    margin: auto;
+  }
+}
